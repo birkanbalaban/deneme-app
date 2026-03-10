@@ -1,0 +1,18 @@
+{
+  "project": "DENEME",
+  "platform": "ios",
+  "github": {
+    "owner": "birkanbalaban",
+    "repo": "deneme-app"
+  },
+  "ios": {
+    "path": "ios"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {
+    "expo": true
+  },
+  "mobai": {}
+}
