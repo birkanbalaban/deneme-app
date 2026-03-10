@@ -158,6 +158,11 @@ jobs:
         run: |
           set -e
 
+          if [ "$PROJECT_TYPE" = "expo" ] && [ ! -d "$IOS_PATH" ]; then
+            echo "Running expo prebuild to generate iOS project..."
+            npx expo prebuild -p ios
+          fi
+
           # Navigate to iOS project
           cd "$IOS_PATH"
 
